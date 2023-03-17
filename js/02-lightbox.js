@@ -14,9 +14,7 @@ const galleryElements = galleryItems.map((item) => {
 gallery.insertAdjacentHTML("afterbegin", galleryElements.join(""));
 
 const eventModal = new SimpleLightbox(".gallery__link", {
-    captions: true,
     captionSelector: 'img',
     captionsData: 'alt',
     captionDelay: '250',
-
 });
